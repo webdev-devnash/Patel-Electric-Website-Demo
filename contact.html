@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact us</title>
+
+    <style>
+        main {
+            position: relative;
+            top: 180px;
+        }
+
+        .con-container {
+            width: 80vw;
+            margin: auto;
+            text-align: center;
+            font-size: 2rem;
+
+        }
+
+        .con-container>h3 {
+            font-weight: bold;
+            color: #ffc800;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        .con-container div {
+            width: 80vw;
+            margin: 20px auto;
+        }
+
+        table {
+            padding-left: 190px;
+            margin: 4px;
+        }
+
+        .con {
+            width: 190px;
+            height: 5vh;
+            justify-content: center;
+            text-align: justify;
+            font-size: 0.6em;
+            align-items: center;
+            margin: 15px;
+
+        }
+
+        /* -------------------------------------- */
+
+        .form-container {
+            width: 400px;
+            background-color: #ebc745;
+            border: 2px solid transparent;
+            padding: 32px 24px;
+            font-size: 14px;
+            font-family: inherit;
+            color: white;
+            display: flex;
+            box-sizing: border-box;
+            border-radius: 16px;
+            width: 80vw;
+            margin: 60px 35px 59px 140px;
+        }
+
+        .con-container .simple {
+            border: 2px solid black;
+            width: 80vw;
+            margin: 20px auto;
+        }
+
+        .form-container .form {
+
+            display: flex;
+            right: 20%;
+            /* flex-direction: column;
+            gap: 20px; */
+            margin: 6%;
+
+            padding: auto;
+        }
+
+
+        .form-container .form1 {
+            background-color: rgb(255, 0, 183);
+            width: 40%;
+            border-radius: 16px;
+            display: flex;
+            margin: 6%;
+            padding: 17px;
+            justify-content: center;
+            align-items: center;
+            border: 8px solid rgb(157, 255, 0);
+            color: #ffffff;
+        }
+
+        .form-container .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .form-container .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: whitesmoke;
+            font-size: 1rem;
+        }
+
+        .form-container .form-group input {
+            width: 90%;
+            padding: 12px 16px;
+            border-radius: 8px;
+            color: #fff;
+            font-family: inherit;
+            background-color: transparent;
+            border: 1px solid #414141;
+        }
+
+        .form-container .form-group textarea {
+            width: 90%;
+            padding: 12px 16px;
+            border-radius: 8px;
+            color: #fff;
+            height: 96px;
+            border: 1px solid #414141;
+            background-color: transparent;
+            font-family: inherit;
+        }
+
+        .form-container .form-group input::placeholder {
+            opacity: 2;
+        }
+
+        .form-container .form-group input:focus {
+            outline: none;
+            border-color: #e81cff;
+        }
+
+        .form-container .form-group textarea:focus {
+            outline: none;
+            border-color: #e81cff;
+        }
+
+        .form-container .form-submit-btn {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            align-self: flex-start;
+            font-family: inherit;
+            color: #220707;
+            font-weight: 600;
+            width: 40%;
+            background-color: rgb(60, 180, 254);
+            border: 1px solid #bcb4ad;
+            padding: 12px 16px;
+            font-size: inherit;
+            gap: 8px;
+            margin-top: 8px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        .form-container .form-submit-btn:hover {
+            background-color: blueviolet;
+            border-color: #fff;
+            border: 1px solid #150f0a;
+
+        }
+
+        .con-container .input-text {
+            display: flex;
+            padding: 30px;
+        }
+
+        .subscrib {
+            margin-left: 25%;
+            width: 410px;
+            height: 35px;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .con-container button {
+            background: rgb(67 0 86);
+            color: whitesmoke;
+            width: 160px;
+            font-size: 0.9rem;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .map{
+            width: 100%;
+            height: 80vh;
+            margin-top: 2%;
+        }
+
+        /* -------------------------------------- */
+    </style>
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+
+    <header>
+        <div class="navbar">
+            <a href=""><img class="logo" src="images/logop.png" alt="Patel Electric"></a>
+
+
+            <ul class="search">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Iron</option>
+                    <option>Blander</option>
+                    <option>Mixer</option>
+                </select>
+                <input placeholder=" Search Electric Items" class="search-bar">
+                <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+            </ul>
+            
+            <ul class="icons">
+                <i class="fa-solid fa-right-to-bracket"><a href="login.html">&nbsp; Login</a></i>
+                <i class="fa-solid fa-right-to-bracket"><a href="register.html">&nbsp; Register</a></i>
+            </ul>
+        </div>
+
+        </div>
+
+        <div class="panel">
+            <div class="home-icon">
+                <a href="index.html">
+                    <i class="fa-solid fa-bars"> <i class="fa fa-home"></i></i>
+
+                </a>
+            </div>
+
+            <div class="menus">
+                <!-- <p><a href="dev.html" id="new"><i class="fa fa-home"></i></a></p> -->
+                <p><a href="all categories.html">All Categories</a></p>
+                <p><a href="Products.html">Products</a></p>
+                <p><a href="about.html">About Us</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+                <p><a href="cus_service.html">Customer Services</a></p>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <main>
+        <div class="con-container">
+            <h3>CONTACT US</h3>
+            <div class="simple"></div>
+        </div>
+
+        <div clas="form-container">
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.70661847252!2d70.45902300998458!3d21.51920857067225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3958018e0f7d2701%3A0x4508d18c58c5e6c4!2sPatel%20Electric!5e0!3m2!1sen!2sin!4v1725381878585!5m2!1sen!2sin"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" >
+        </iframe>
+        
+        </div>
+        
+
+        <!-- ------------------------- -->
+        <div class="form-container">
+            <div class="form1">
+                <h1>Welcome To!... <br>Patel Electric Shop..</h1>
+            </div>
+
+            <form class="form">
+                <div class="form-group">
+                    <label for="email">Enter Your Name :</label>
+                    <input type="text" id="name" name="name" required="" placeholder="Full Name...">
+                </div>
+                <div class="form-group">
+                    <label for="email">Enter your Phone No :</label>
+                    <input type="text" id="email" name="email" required="" placeholder="Phone no...">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Enter your Email :</label>
+                    <input type="text" id="email" name="email" required="" placeholder="Email...">
+                </div>
+                <div class="form-group">
+                    <label for="textarea">How Can We Help You?</label>
+                    <textarea name="textarea" placeholder="Message Type Here......." id="textarea" rows="10" cols="50"
+                        required=""></textarea>
+                </div>
+                <button class="form-submit-btn" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- ------------------------------------------------ -->
+
+
+        <!-- newslater -->
+        <!-- <div class="con-container">
+            <h3>Subscribe To The Electronic Shop For Latest upload.</h3>
+            <div class="input-text">
+                <input type="text" class="subscrib" placeholder=" Enter Your Email..">
+                <button>SUBSCRIBE</button>
+            </div>
+        </div> -->
+        <!-- newslater -->
+
+        
+
+    </main>
+</body>
+
+</html>

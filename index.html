@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Patel Electric</title>
+</head>
+
+<body>
+
+    <!-- Top Navigation Bar -->
+
+    <header>
+        <div class="navbar">
+            <a href=""><img class="logo" src="images/logop.png" alt="Patel Electric"></a>
+
+
+            <ul class="search">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Iron</option>
+                    <option>Blander</option>
+                    <option>Mixer</option>
+                </select>
+                <input placeholder=" Search Electric Items" class="search-bar">
+                <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+            </ul>
+            <!-- <ul class="search">
+                <select class="search-all">
+                    <option>All</option>
+                    <option>Iron</option>
+                    <option>Blander</option>
+                    <option>Mixer</option>
+                </select>
+                <input placeholder=" Search Electric Items" class="search-bar">
+                <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </ul> -->
+
+            <ul class="icons">
+                <i class="fa-solid fa-right-to-bracket"><a href="login.html">&nbsp; Login</a></i>
+                <i class="fa-solid fa-right-to-bracket"><a href="register.html">&nbsp; Register</a></i>
+            </ul>
+        </div>
+
+        </div>
+
+        <div class="panel">
+            <div class="home-icon">
+                <a href="index.html">
+                    <i class="fa-solid fa-bars"> <i class="fa fa-home"></i></i>
+
+                </a>
+            </div>
+
+            <div class="menus">
+                <p><a href="all categories.html">All Categories</a></p>
+                <p><a href="Products.html">Products</a></p>
+                <p><a href="about.html">About Us</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+                <p><a href="cus_service.html">Customer Services</a></p>
+
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <!-- banner -->
+
+    <main>
+        <div class="herosection">
+            <a href="all categories.html">
+            <img src="images/rb1.png" alt="non"></a>
+            <div class="heromsg">
+                <p>Welcome To Patel-Electric-Shop, You can also shop Here Best Quality products With Services Provide.
+                    <a href="#"> Click here to See</a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="herosection">
+            <img src="images/rb2.jpg" alt="non">
+            <div class="heromsg">
+                <p>Welcome To Patel-Electric-Shop, You can also shop Here Best Quality products With Services Provide.
+                    <a href="#"> Click here to See</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="herosection">
+            <img src="images/rb3.jpg" alt="non">
+            <div class="heromsg">
+                <p>Welcome To Patel-Electric-Shop, You can also shop Here Best Quality products With Services Provide.
+                    <a href="#"> Click here to See</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="herosection">
+            <img src="images/rb4.jpg" alt="non">
+            <div class="heromsg">
+                <p>Welcome To Patel-Electric-Shop, You can also shop Here Best Quality products With Services Provide.
+                    <a href="#"> Click here to See</a>
+                </p>
+            </div>
+        </div>
+
+        <div style="background-color: rgb(73, 235, 235); font-size: 20px; text-align: center;"><i
+                class="fa-solid fa-lightbulb" style="color: #450af5;"></i> <strong> Welcome To Patel Electronics
+            </strong><i class="fa-solid fa-lightbulb" style="color: #f50aba;"></i>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("herosection");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+        </script>
+
+
+
+        <!-- Product in Line Of Strate -->
+        <!-- ------------------------------------------------ -->
+        <div class="pro">
+            <p>Our Products :</p>
+        </div>
+        <div class="shopsection">
+
+            <div class="box1 box">
+
+                <div class="boxcontent">
+                    <h2>Bajaj Mixer</h2>
+                    <div class="boximg" style="background-image: url('images/m3.jpg');">
+                    </div>
+                    <div>
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>Bajaj Rex Mixer Grinder 750W|3 Mixer Jars|Mixie for Kitchen with Nutri-Pro
+                                    Feature|Titan Motor-Heavy Duty Grinding|Adjustable Speed Control|Multifunctional...
+                                </p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -49% ₹3,249</b></p>
+                        <p>M.R.P. : <del>₹6,375</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="box2 box">
+                <div class="boxcontent">
+                    <h2>Havells Fan</h2>
+                    <div class="boximg" style="background-image: url('images/fan3.jpg');">
+                    </div>
+
+                    <div>
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>Havells 1200mm Ambrose ES Ceiling Fan | Premium Finish, Decorative Fan, Elegant
+                                    Looks, High Air Delivery, Energy Saving, 100% Pure Copper Motor | 2 Year...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -40% ₹2,198</b></p>
+                        <p>M.R.P. : <del>₹3,675</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="box3 box">
+                <div class="boxcontent">
+                    <h2>Philips Blender </h2>
+                    <div class="boximg" style="background-image: url('images/blander1.jpg');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>PHILIPS HL1655/00 Hand Blender | Powerful 250W Motor | with Rust free steel arm |
+                                    Easy single trigger operation | Specially designed blades | Wall bracket...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -9% ₹1,899</b></p>
+                        <p>M.R.P. : <del>₹2,095</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box4 box">
+                <div class="boxcontent">
+                    <h2>Wall Fan</h2>
+                    <div class="boximg" style="background-image: url('images/wfan1.jpg');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>Usha Mist Air Icy 400mm Wall Fan (White) Pack of 1</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -17% ₹2,899</b></p>
+                        <p>M.R.P. : <del>₹3,490</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box5 box">
+
+                <div class="boxcontent">
+                    <h2>Hand Mixer</h2>
+                    <div class="boximg" style="background-image: url('images/c1.jpg');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>PHILIPS HL1655/00 Hand Blender | Powerful 250W Motor | with Rust free steel arm |
+                                    Easy single trigger operation | Specially designed blades | Wall bracket...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -9% ₹1,899</b></p>
+                        <p>M.R.P. : <del>₹2,095</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box6 box">
+                <div class="boxcontent">
+                    <h2>Indection</h2>
+                    <div class="boximg" style="background-image: url('images/induction1.jpg');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>PHILIPS HL1655/00 Hand Blender | Powerful 250W Motor | with Rust free steel arm |
+                                    Easy single trigger operation | Specially designed blades | Wall bracket...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -9% ₹1,899</b></p>
+                        <p>M.R.P. : <del>₹2,095</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+
+        <!-- ------------------------------------------------ -->
+
+
+        <!-- Products -->
+        <div class="pro1">
+            <p>Latest Products :</p>
+        </div>
+        <div class="shopsection1">
+
+            <div class="box1 box12">
+
+                <div class="boxcontent1">
+                    <h2>Bajaj Mixer</h2>
+                    <div class="boximg1" style="background-image: url('images/m3.jpg');">
+                    </div>
+                    <div>
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>Bajaj Rex Mixer Grinder 750W|3 Mixer Jars|Mixie for Kitchen with Nutri-Pro
+                                    Feature|Titan Motor-Heavy Duty Grinding|Adjustable Speed Control|Multifunctional...
+                                </p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -49% ₹3,249</b></p>
+                        <p>M.R.P. : <del>₹6,375</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="box2 box12">
+                <div class="boxcontent1">
+                    <h2>Havells Fan</h2>
+                    <div class="boximg1" style="background-image: url('images/fan3.jpg');">
+                    </div>
+
+                    <div>
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>Havells 1200mm Ambrose ES Ceiling Fan | Premium Finish, Decorative Fan, Elegant
+                                    Looks, High Air Delivery, Energy Saving, 100% Pure Copper Motor | 2 Year...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -40% ₹2,198</b></p>
+                        <p>M.R.P. : <del>₹3,675</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="box3 box12">
+                <div class="boxcontent1">
+                    <h2>Philips Blender </h2>
+                    <div class="boximg1" style="background-image: url('images/blander1.jpg');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>PHILIPS HL1655/00 Hand Blender | Powerful 250W Motor | with Rust free steel arm |
+                                    Easy single trigger operation | Specially designed blades | Wall bracket...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -9% ₹1,899</b></p>
+                        <p>M.R.P. : <del>₹2,095</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box4 box12">
+                <div class="boxcontent1">
+                    <h2>Wall Fan</h2>
+                    <div class="boximg1" style="background-image: url('images/wfan1.jpg');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>Usha Mist Air Icy 400mm Wall Fan (White) Pack of 1</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -17% ₹2,899</b></p>
+                        <p>M.R.P. : <del>₹3,490</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat -->
+
+            <div class="box1 box12">
+
+                <div class="boxcontent1">
+                    <h2>ORPAT Hand Mixar</h2>
+                    <div class="boximg1" style="background-image: url('images/c1.jpg');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>PHILIPS HL1655/00 Hand Blender | Powerful 250W Motor | with Rust free steel arm |
+                                    Easy single trigger operation | Specially designed blades | Wall bracket...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -9% ₹1,899</b></p>
+                        <p>M.R.P. : <del>₹2,095</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box2 box12">
+                <div class="boxcontent1">
+                    <h2>Indection</h2>
+                    <div class="boximg1" style="background-image: url('images/induction1.jpg');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>PHILIPS HL1655/00 Hand Blender | Powerful 250W Motor | with Rust free steel arm |
+                                    Easy single trigger operation | Specially designed blades | Wall bracket...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -9% ₹1,899</b></p>
+                        <p>M.R.P. : <del>₹2,095</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box3 box12">
+                <div class="boxcontent1">
+                    <h2>Baulb</h2>
+                    <div class="boximg1" style="background-image: url('images/b1.png');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>PHILIPS HL1655/00 Hand Blender | Powerful 250W Motor | with Rust free steel arm |
+                                    Easy single trigger operation | Specially designed blades | Wall bracket...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -9% ₹1,899</b></p>
+                        <p>M.R.P. : <del>₹2,095</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box4 box12">
+                <div class="boxcontent1">
+                    <h2>Chopar </h2>
+                    <div class="boximg1" style="background-image: url('images/chopar.jpg');">
+                    </div>
+                    <div class="border">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>PHILIPS HL1655/00 Hand Blender | Powerful 250W Motor | with Rust free steel arm |
+                                    Easy single trigger operation | Specially designed blades | Wall bracket...</p>
+                            </details>
+                        </button>
+
+                        <p><b>Price : -9% ₹1,899</b></p>
+                        <p>M.R.P. : <del>₹2,095</del></p>
+
+                        <a href="#"><b>Buy Now</b></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="foottop">
+            <a href="#">Back To Top</a>
+        </div>
+
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h3>Electronic Shop</h3>
+                    <p>PATEL ELECTRIC</p>
+                    <p> AZAD CHOWCK , </p>
+                    <p> JUNAGADH</p>
+                    <strong>Phone:</strong> +91 78784...... <br>
+                    <strong>Email:</strong> patelelectronic7878@gmail.com <br>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Usefull Links</h4>
+                    <ul>
+                        <li><a href="#">All Categories</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Customer Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+
+                    <ul>
+                        <li><a href="#">Blander</a></li>
+                        <li><a href="#">Mixar</a></li>
+                        <li><a href="#">Tostar</a></li>
+                        <li><a href="#">Soda Maker</a></li>
+                        <li><a href="#">Many More..</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <div class="asd">
+                        <h4>Our Social Networks</h4>
+                        <p>To Subscribe in Here, </p>
+                    </div>
+
+                    <div class="socail-links mt-3">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-skype"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+
+        <div class="footpanel3 ">
+            <div class="logobot ">
+
+            </div>
+            <div class="devansh border">
+                <h4>Creator By : Devansh Kapadiya</h4>
+            </div>
+        </div>
+
+
+        <hr>
+        <div class="container py-4">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Patel Electronic Shop - 2024</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by :<a href="#"><strong> Devansh Kapadiya</strong></a>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+    <a href="#" class="arrow"><i><img src="images/arrow1.png" alt="arrow"></i></a>
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <form>
+        <!-- <p class="welcome">
+          Welcome Back!
+        </p> -->
+  
+          <!-- <p>Login</p>
+  
+          <label>
+              <input class="input" type="email" placeholder="" required="">
+              <span>Email</span>
+          </label>
+  
+          <label>
+              <input class="input" type="password" placeholder="" required="">
+              <span>Password</span>
+          </label>
+          <button class="submit">Submit</button>
+          <p class="signin"> Create an acount ? <strong><a href="register.html">Register</a></strong> </p> -->
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <header>
+        <nav class="navbar">
+            <a href=""><img src="images/logo.png" alt="Patel Electric"></a>
+
+            <ul class="menus">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#home">All Categories</a></li>
+                <li><a href="#home">Products</a></li>
+                <li><a href="#home">About US</a></li>
+                <li><a href="#home">Services</a></li>
+                <li><a href="#home">Contact</a></li>
+            </ul>
+
+            <div class="btns">
+                <button class="sign-in btn">Sign in</button>
+                <button class="sign-up btn">Sign Up</button>
+            </div>
+        </nav>
+    </header> -->
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Product</title>
+
+    <style>
+        /* body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .pro{
+            width: 60vw;
+            margin-top: 30%;
+        } */
+
+        main {
+            padding: 8px;
+            display: grid;
+            grid-template-columns: 240px 500px;
+            grid-column-gap: 20px;
+            position: relative;
+            top: 180px;
+            margin-left: 10px;
+        }
+
+        .left .section-title {
+            font-weight: 700;
+            font-size: 22px;
+            margin-bottom: 20px;
+            margin-right: 6px;
+            text-decoration-line: underline;
+            text-decoration-style: double;
+
+        }
+
+        .right .section-title {
+            font-weight: 700;
+            font-size: 22px;
+            margin-bottom: 30px;
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+        }
+
+
+        main .left {
+            border-right: thin solid #d4d4d4;
+            /* padding-right: 20px; */
+        }
+
+        main .left a {
+            display: block;
+            text-decoration: none;
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 10px;
+            list-style-type: circle;
+        }
+
+        main .left a:hover {
+            text-decoration: underline;
+        }
+
+        /* main .right {} */
+
+        main .right .product {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-column-gap: 50px;
+            grid-row-gap: 50px;
+        }
+
+        main .right .product-left img {
+            height: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        main .right .title1 a {
+            font-weight: bold;
+            font-size: 18px;
+            text-decoration: none;
+            color: #555;
+            line-height: 26px;
+        }
+
+        main .right .title1 a:hover {
+            text-decoration: underline;
+        }
+
+        main .right .description {
+            margin-top: 10px;
+        }
+
+        main .right .price {
+            font-size: 24px;
+            margin-top: 23px;
+
+        }
+
+        p .right .price a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+
+    <header>
+        <div class="navbar">
+            <a href=""><img class="logo" src="images/logop.png" alt="Patel Electric"></a>
+
+
+            <ul class="search">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Iron</option>
+                    <option>Blander</option>
+                    <option>Mixer</option>
+                </select>
+                <input placeholder=" Search Electric Items" class="search-bar">
+                <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+            </ul>
+
+
+            <ul class="icons">
+                <i class="fa-solid fa-right-to-bracket"><a href="login.html">&nbsp; Login</a></i>
+                <i class="fa-solid fa-right-to-bracket"><a href="register.html">&nbsp; Register</a></i>
+            </ul>
+        </div>
+
+        </div>
+
+        <div class="panel">
+            <div class="home-icon">
+                <a href="index.html">
+                    <i class="fa-solid fa-bars"> <i class="fa fa-home"></i></i>
+
+                </a>
+            </div>
+
+            <div class="menus">
+                <p><a href="all categories.html">All Categories</a></p>
+                <p><a href="Products.html">Products</a></p>
+                <p><a href="about.html">About Us</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+                <p><a href="cus_service.html">Customer Services</a></p>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <div class="left">
+            <div class="section-title ">Products Categories</div>
+            <a href="">Blander</a>
+            <a href="">Mixar</a>
+            <a href="">Fan</a>
+            <a href="">Chopar</a>
+            <a href="">Soda Maker</a>
+            <a href="">Bulb</a>
+        </div>
+
+        <div class="right">
+            <div class="section-title ">Our Products : </div>
+            <div class="product">
+                <div class="product-left">
+                    <img src="images/fan3.jpg" alt="">
+                </div>
+
+                <div class="product-right">
+
+
+                    <p class="title1">
+                        <a href="">Havells Fan</a>
+                    </p>
+
+                    <p class="description">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>Havells 1200mm Ambrose ES Ceiling Fan | Premium Finish, Decorative Fan, Elegant
+                                    Looks, High Air Delivery, Energy Saving, 100% Pure Copper Motor | 2 Year...</p>
+                            </details>
+                        </button>
+                    </p>
+
+                    <p class="price">
+                    <p><b>Price : -40% ₹2,198</b></p>
+                    <p>M.R.P. : <del>₹3,675</del></p>
+
+                    <a href="#"><b>Buy Now</b></a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <div class="product-left">
+                    <img src="images/blander1.jpg" alt="">
+                </div>
+
+                <div class="product-right">
+
+
+                    <p class="title1">
+                        <a href="">Philips Blender</a>
+                    </p>
+
+                    <p class="description">
+                        <button class="detail">
+                            <details>
+                                <summary><b>Details :</b></summary>
+                                <p>PHILIPS HL1655/00 Hand Blender | Powerful 250W Motor | with Rust free steel arm |
+                                    Easy single trigger operation | Specially designed blades | Wall bracket...</p>
+                            </details>
+                        </button>
+                    </p>
+
+                    <p class="price">
+                    <p><b>Price : -9% ₹1,899</b></p>
+                    <p>M.R.P. : <del>₹2,095</del></p>
+
+                    <a href="#"><b>Buy Now</b></a>
+                    </p>
+
+                </div>
+            </div>
+    </main>
+
+
+</body>
+
+</html>
